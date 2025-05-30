@@ -1,0 +1,24 @@
+version=pmwiki-2.4.2 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+author=admin
+charset=UTF-8
+csum=
+host=188.26.81.5
+name=Site.SideBar
+passwdedit=@_site_edit
+rev=4
+targets=Instructiuni.Instructiuni,Instructiuni.Backend,Instructiuni.Frontend,Site.SideBar
+text=%25sidehead%25 [[Instructiuni/Instructiuni]]%0a* [[Instructiuni/Backend]]  %0a* [[Instructiuni/Frontend]]%0a%0a%25right%25 [-[[Site.SideBar?action=edit | edit SideBar]]-]
+time=1738771409
+author:1738771409=admin
+diff:1738771409:1738771333:=2,3c2,3%0a%3c * [[Instructiuni/Backend]]  %0a%3c * [[Instructiuni/Frontend]]%0a---%0a> * [[Backend/Backend]]  %0a> * [[Frontend/Frontend]]%0a
+host:1738771409=188.26.81.5
+author:1738771333=admin
+diff:1738771333:1738771316:=0a1,3%0a> * [[Main/HomePage]]%0a> * [[Main/WikiSandbox]]%0a> %0a
+host:1738771333=188.26.81.5
+author:1738771316=admin
+diff:1738771316:1738771273:=4c4%0a%3c %25sidehead%25 [[Instructiuni/Instructiuni]]%0a---%0a> %25sidehead%25 [[Intructiuni/Instructiuni]]%0a
+host:1738771316=188.26.81.5
+author:1738771273=admin
+diff:1738771273:1718338390:=4,6c4,19%0a%3c %25sidehead%25 [[Intructiuni/Instructiuni]]%0a%3c * [[Backend/Backend]]  %0a%3c * [[Frontend/Frontend]]%0a---%0a> %25sidehead%25 [[PmWiki/PmWiki]]%0a> * [[PmWiki/Initial Setup Tasks]]  %0a> * [[PmWiki/Basic Editing]]%0a> * [[PmWiki/Documentation Index]]%0a> * [[PmWiki/FAQ | PmWiki FAQ ]]%0a> * [[PmWiki/PmWikiPhilosophy]]%0a> * [[PmWiki/Release Notes]]%0a> * [[PmWiki/ChangeLog]]%0a> %0a> %25sidehead%25 [[https://www.pmwiki.org | pmwiki.org ]]%0a> * [[Cookbook:Cookbook | Cookbook (addons) ]]%0a> * [[Skins:Skins | Skins (themes) ]]%0a> (:if auth edit Site.SideBar:)%0a> * [[PITS:PITS | PITS (issue tracking) ]]%0a> * [[PmWiki/Mailing Lists|PmWiki Mailing Lists]]%0a> (:ifend:)%0a
+host:1738771273=188.26.81.5

@@ -1,0 +1,9 @@
+version=pmwiki-2.3.14 ordered=1 urlencoded=1
+author=Petko
+charset=UTF-8
+csum=de-sandbox (-8357)
+name=PmWikiZhTw.WikiSandbox
+rev=63
+targets=PmWikiZhTw.WikiSandbox,PmWiki.TextFormattingRules
+text=請在此盡情地嘗試[[PmWiki/Text Formatting Rules]]中提到的各種標記用法，點選[[{$FullName}?action=edit|編輯]]連結即可開始編輯本頁面。(位於頁面右上角)%0a%0a測試沙箱每十五分鐘會自動清空內容。%0a----
+time=1668540067

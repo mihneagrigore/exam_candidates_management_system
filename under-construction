@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admitere 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+        }
+        .button {
+            background-color: #004085;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #002752;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Site-ul este în curs de dezvoltare</h1>
+        <p>Ne cerem scuze pentru eventualele inconveniențe. Lucrăm la îmbunătățirea platformei pentru a vă oferi o experiență mai bună.</p>
+    </div>
+</body>
+</html>

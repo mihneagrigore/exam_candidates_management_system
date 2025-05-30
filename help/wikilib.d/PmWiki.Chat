@@ -1,0 +1,10 @@
+version=pmwiki-2.3.13 ordered=1 urlencoded=1
+author=simon
+charset=UTF-8
+csum=add summary (+24)
+ctime=1573063712
+name=PmWiki.Chat
+rev=11
+targets=
+text=(:Summary:IRC Channel: #pmwiki on irc.freenode.net:)%0a{$:Summary}.%0a
+time=1665825252

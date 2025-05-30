@@ -1,0 +1,12 @@
+version=pmwiki-2.3.29 ordered=1 urlencoded=1
+author=simon
+charset=UTF-8
+csum=delete? (+0)
+ctime=1574774085
+keywords=number headers sections
+name=PmWiki.NumberedHeadings
+rev=3
+targets=PmWiki.TableOfContents
+text=(:redirect TableOfContents:)%0aSummary: Redirects to [[Table of contents]].%0a%0a(:title Numbered headings:)%0a(:keywords number headers sections:)%0a
+time=1703492656
+title=Numbered headings

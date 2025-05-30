@@ -1,0 +1,11 @@
+version=pmwiki-2.3.23 ordered=1 urlencoded=1
+author=poesty
+charset=UTF-8
+csum= (+24)
+ctime=1684777661
+name=PmWikiZhCn.PmWikiPhilosophy
+rev=3
+targets=PmWikiZhCn.Audiences,PmWikiZhCn.PatrickMichaud,PmWikiZhCn.CustomMarkup,PmWikiZhCn.WikiWikiWeb
+text=(:title PmWiki 哲学:)%0a(:Summary:本页面描述了指导 PmWiki 设计和实现的一些思想:)%0a本页面描述了指导 PmWiki 设计和实现的一些思想。[[Patrick Michaud]] 并不声称下面列出的任何内容都是原创的想法；这些只是推动 PmWiki 发展的因素。您可以对下面列出的任何内容表示不同意见。[[Audiences|受众]]还描述了下面列出的思想背后的许多推理。%0a%0a[[#favorwriters]] %0a:''1. 重视作者而非读者'':PmWiki 本质上是一个用于超链接文档的协作撰写系统。让人们（包括 Pm ）贡献文字材料已经很困难了；让作者处理 HTML 标记和链接问题将增加积极贡献的障碍。因此，PmWiki 旨在使撰写文档变得更容易，即使这样做会限制所撰写的文档类型。%0a%0a[[#nothtml]]%0a:''2. 不试图替代 HTML'':PmWiki 不试图实现 HTML 中的所有功能。人们不使用网络浏览器编辑 HTML 有很多原因--这只是效果不太好。如果您需要在网页中编写大量奇怪的HTML代码，那么 PmWiki 不适合用于创建此类内容。PmWiki 试图做的是使 PmWiki 与其他“非维基”网页文档链接更容易，将 PmWiki 页面嵌入复杂网页中，并允许其他网页文档轻松链接到 PmWiki。%0a%0a: :这个原则也遵循了上面提到的“重视作者而非读者”的原则--每个添加到 PmWiki 的新功能都需要一些额外的标记来支持它。这样的话源文档很快就会变得十分丑陋，那我们最好还是直接编写 HTML。%0a%0a: :避免使用任意 HTML 的另一个原因是，格式不正确的 HTML 可能导致页面完全停止显示，并且任意 HTML 可能存在安全风险--特别是在匿名创建页面的情况下。有关更多信息，请参阅 http://www.cert.org/advisories/CA-2000-02.html。%0a%0a[[#avoidfeaturecreep]]%0a:''3. 避免不必要的功能（或“功能扩张”）'':通常情况下，PmWiki 的功能是针对特定需求实现的，而不是因为有人发现某个东西“可能有用”。在任何有用的系统中，一旦人们基于某个功能构建了很多结构，就很难改变设计不良的功能（需要一个例子吗？看看 MS-DOS 或 Windows ）。避免设计不良的一种方法是直到您更清楚地了解某个功能将如何被使用前，抵制实现它的诱惑。%0a%0a[[#collaborativemaintenance]]%0a:''4. 支持公共网页的协作维护'':虽然这并不是 PmWiki 最初的目的，但很明显 [[WikiWikiWeb]] 原则可以用于简化团队协作设计和维护公共网站。PmWiki 允许对单个页面进行密码保护，而且只需进行一些本地自定义即可保护大部分 PmWiki 页面。此外，在许多方面，PmWiki 提供了“强化版样式表”：您可以快速更改大量页面的页眉、页脚和其他元素，而无需触及单个页面的内容。最后，很容易为特定应用程序添加[[CustomMarkup|自定义标记]]。%0a%0a[[#easy]]%0a:''5. 安装、配置和维护方便'':PmWiki 的 gzip 压缩文件大小仅约为 400K，将其上传到服务器的速度很快。进行一两个 `chmod` 操作，在 config.php 中更新一些设置，您就可以启动和运行了。PmWiki 将所有数据存储在纯文本文件中，因此无需使用 `MySQL` 或其他实用工具。升级通常只需将最新版本的文件复制到现有 PmWiki 安装的文件上即可。（创建 PmWiki 的最大原因之一是，当时的其他维基引擎需要修改分发文件，因此管理员在每次升级时都会丢失其自定义设置。）
+time=1684777972
+title=PmWiki 哲学

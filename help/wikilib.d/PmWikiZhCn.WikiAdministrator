@@ -1,0 +1,11 @@
+version=pmwiki-2.3.23 ordered=1 urlencoded=1
+author=poesty
+charset=UTF-8
+csum= (+4)
+ctime=1684689816
+name=PmWikiZhCn.WikiAdministrator
+rev=3
+targets=PmWikiZhCn.Installation,PmWikiZhCn.InitialSetupTasks,PmWiki.AdminTask,PmWiki.Security,PmWiki.Audiences,PmWiki.DocumentationIndex
+text=(:title 维基管理员:)  %0a维基管理员是为作者和网站访问者安装、配置和管理PmWiki系统的人员。PmWiki的设计目标是使对HTML、PHP甚至Web服务器软件了解不多的人员能够尽可能轻松地完成[[Installation|安装]]和[[InitialSetupTasks|初始设置任务]]。同时，PmWiki设计得足够灵活，以便只有少许HTML和PHP知识的人员可以根据自己的特定需求自定义PmWiki。%0a%0a请参阅[[PmWiki.documentation index]]其中相关界面以助于管理PmWiki，[[PmWiki:AdminTask|管理任务]]，[[PmWiki:security|安全]]以及[[PmWiki.audiences|受众]]以获取有关PmWiki目标受众的更多详细信息。
+time=1684775528
+title=维基管理员

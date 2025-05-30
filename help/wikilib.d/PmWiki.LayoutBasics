@@ -1,0 +1,9 @@
+version=pmwiki-2.3.37 ordered=1 urlencoded=1
+author=Petko
+charset=UTF-8
+csum=Deprecated, see [[PmWiki/Skin Templates]] (-4205)
+name=PmWiki.LayoutBasics
+rev=27
+targets=
+text=(:redirect PmWiki.SkinTemplates:)%0a
+time=1730363804

@@ -1,0 +1,11 @@
+version=pmwiki-2.3.38 ordered=1 urlencoded=1
+author=Petko
+charset=UTF-8
+csum=de-sandbox (-88)
+ctime=1423093086
+name=PmWikiFr.WikiSandbox
+rev=120
+targets=PmWikiFr.TextFormattingRules
+text=(:title Bac à sable:)(:Summary:Page pour expérimenter l'édition:)(:nogroupfooter:)%0aCette page vous est ouverte. Elle est là pour que vous vous 'fassiez la main' avec les [[TextFormattingRules|+]]. Il vous suffit  de cliquer sur le lien "$[Edit]".\\%0a''Merci de laisser ce paragraphe en l'état et de faire vos expérimentations sous le trait.''%0a----%0a%0a%0aAh ben oui
+time=1733221311
+title=Bac à sable

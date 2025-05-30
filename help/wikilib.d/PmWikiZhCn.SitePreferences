@@ -1,0 +1,10 @@
+version=pmwiki-2.3.23 ordered=1 urlencoded=1
+author=poesty
+charset=UTF-8
+csum= (+911)
+ctime=1684473540
+name=PmWikiZhCn.SitePreferences
+rev=1
+targets=Site.Preferences,PmWikiZhCn.AccessKeys,Site.EditForm
+text=(:Summary: 自定义浏览器设置首选项：AccessKeys，编辑表单:)%0a页面[[{$SiteGroup}.Preferences]]包含可自定义的浏览器首选项设置。%0a其中包括[[access keys]]（用于某些操作的键盘快捷键，如编辑、历史记录、浏览）、[[{$SiteGroup}.EditForm]]的设置（编辑区域的宽度和高度）以及正在使用的编辑表单的名称。%0a%0a可以选择不同于[[{$SiteGroup}.Preferences]]的页面，通过复制该页面并使用新名称进行自定义，并设置一个cookie来将该页面指定给正在使用的浏览器，通过%0a%0a   @@?setprefs=`SomeGroup.`CustomPreferences@@%0a%0a其中@@`SomeGroup.`CustomPreferences@@是新的自定义首选项页面的名称。%0a%0a!!备注和注释%0a%0a请注意，为了默认启用对[[{$SiteGroup}.Preferences]]的解析，需要在@@local/config.php@@中添加以下行：%0a%0a-> %25hlt php%25@@XLPage('prefs', "Site.Preferences");@@
+time=1684473540

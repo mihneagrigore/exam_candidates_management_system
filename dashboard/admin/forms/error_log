@@ -1,0 +1,7 @@
+[05-Jan-2025 18:56:27 Europe/Bucharest] PHP Fatal error:  Uncaught DivisionByZeroError: Modulo by zero in /home/moisilro/admitere.moisil.ro/dashboard/cache/11269d3d4bf637d845843b54c5212897abbf1f90_0.file.index.tpl.php:446
+Stack trace:
+#0 /home/moisilro/admitere.moisil.ro/dashboard/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php(128): content_66e7f853b4bb10_91379218(Object(Smarty_Internal_Template))
+#1 /home/moisilro/admitere.moisil.ro/dashboard/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php(172): Smarty_Template_Resource_Base->getRenderedTemplateCode(Object(Smarty_Internal_Template))
+#2 /home/moisilro/admitere.moisil.ro/dashboard/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php(206): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#3 /home/moisilro/admitere.moisil.ro/dashboard/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php(216): Smarty_Internal_Template->render(false, 0)
+#4 /home/moisilro/admitere.moisil.ro/dashboard/vendor/smarty/smarty/libs/sysplugins/smarty_intern in /home/moisilro/admitere.moisil.ro/dashboard/cache/11269d3d4bf637d845843b54c5212897abbf1f90_0.file.index.tpl.php on line 446

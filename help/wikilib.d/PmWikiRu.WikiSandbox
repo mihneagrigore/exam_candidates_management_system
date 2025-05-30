@@ -1,0 +1,10 @@
+version=pmwiki-2.3.37 ordered=1 urlencoded=1
+author=iGor
+charset=UTF-8
+csum= (+14)
+ctime=1264338931
+name=PmWikiRu.WikiSandbox
+rev=130
+targets=
+text=Пожалуйста, экспериментируйте в песочнице, то есть здесь. %0aМожете просто взять и отредактировать эту страницу.%0a%0aАнонимное редактирование доступно%0a%0a''''+test '^2^'+''''
+time=1726938812

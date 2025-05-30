@@ -1,0 +1,10 @@
+version=pmwiki-2.3.35 ordered=1 urlencoded=1
+author=Petko
+charset=UTF-8
+csum= (+330)
+ctime=1720369135
+name=PmWikiTl.PmWikiTl
+rev=4
+targets=PmWikiTl.XLPage
+text=(:Language:Tagalog:)%0a(:Summary:{$:Language}:)%0aPmWiki is a wiki-based system for collaborative creation and maintenance of websites.%0a%0aThe software is written in %25newwin%25[[https://php.net/|PHP]], freely available under the %25newwin%25[[https://www.gnu.org/copyleft/gpl.html|General Public License]] and may be downloaded from https://www.pmwiki.org/pub/pmwiki/. This site is running {$Version}. Documentation is available via the documentation index.%0a%0aPmWiki is a registered trademark of [[https://www.pmichaud.com/ | Patrick R. Michaud ]].%0a%0a-----%0a%0aTo translate the user interface into {*$:Language}, simply [[XLPage?action=edit | edit the translation page]] and start adding the appropriate translations.%0a%0aAlso, this page should probably be translated into Tagalog.%0a%0aTo enable this translation on your wiki, download [[(https://www.pmwiki.org/pub/pmwiki/i18n/)i18n-tl.zip]], place the files from the zip/UTF-8/wikilib.d directory into your wikilib.d directory on your server. Then add to local/config.php:%0a%0a%25hlt php%25[@%0aXLPage('tl', 'PmWikiTl.XLPage');%0aXLPage('tl', 'PmWikiTl.XLPageCookbook');%0a@]%0a%0aOther pages in the PmWikiTl wikigroup that may need translation:%0a(:pagelist group={$Group} name=-RecentChanges:)%0a%0aThanks!%0a%0a
+time=1720372223

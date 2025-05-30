@@ -1,0 +1,10 @@
+version=pmwiki-2.3.14 ordered=1 urlencoded=1
+author=simon
+charset=UTF-8
+csum=add summary (+43)
+ctime=1315807443
+name=PmWiki.HomePage
+rev=2
+targets=
+text=(:Summary:Redirects to [[PmWiki.PmWiki]]:)%0a(:redirect PmWiki.PmWiki quiet=1:)
+time=1668921325

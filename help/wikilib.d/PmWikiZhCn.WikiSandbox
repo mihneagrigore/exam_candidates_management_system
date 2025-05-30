@@ -1,0 +1,10 @@
+version=pmwiki-2.3.5 ordered=1 urlencoded=1
+author=Petko
+charset=UTF-8
+csum= (+72)
+ctime=1333375831
+name=PmWikiZhCn.WikiSandbox
+rev=17
+targets=PmWikiZhCn.BasicEditing
+text=请通过[[BasicEditing|基础语法]]在本页练习，只需要点击“编辑”。%0a%0a%0a%0a
+time=1653571103

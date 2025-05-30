@@ -1,0 +1,326 @@
+/*
+// Name: blueberry
+// Version: 1.2.1
+// Author: Ingo Reimund
+// Created: 2007-02-11
+// Description:
+//    This Skin is XHTML 1.1 and CSS 2.0 conform designed.
+//
+// History:
+//     2007-02-11  ingo    Created.
+//     2007-02-11  ingo    wikiedit for ie6 modified
+*/
+
+*{
+   zoom: 1;
+}
+
+body {
+   color: #1f1f1f;
+   background-color: #ffffff;
+   font-size: 0.9em;
+   line-height: 1.35em;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#header {
+   height: 5em;
+   color: #dfe9f5;
+   background-color: #0047c1;
+}
+
+.title {
+   position: absolute;
+   height: 1.1em;
+   padding-left: 0.2em;
+   padding-top: 0.25em;
+   font-size: 2.5em;
+   font-weight: bold;
+}
+
+.row {
+   clear: both;
+   height: 1.8em;
+   font-size: 0.79em;
+   font-weight: bold;
+   color: #132a70;
+   background-color: #dfe9f5;
+}
+
+.borderbottom {
+   border-bottom: 1px solid #0047c1;
+}
+
+.bordertop {
+   border-top: 1px solid #0047c1;
+}
+
+.left {
+   float: left;
+   width: 28em;
+   padding-left: 0.7em;
+}
+
+.right {
+   float: right;
+   width: 31em;
+}
+
+.element li {
+   display: inline;
+   padding-left: 1em;
+   padding-right: 1em;
+   border-left:2px solid #132a70;
+}
+
+.element a {
+   color: #132a70;
+}
+
+.element a:hover {
+   color: #000000;
+}
+
+.sidebar {
+   float: left;
+   width: 15em;
+   padding-bottom: 0em;
+   padding-right: 0.6em;
+   padding-left: 0.6em;
+}
+
+.sidebar li {
+   display: block;
+}
+
+.sidebar a {
+   display: block;
+   text-decoration: none;
+}
+
+.sidebar a:hover {
+   display: block;
+   color: #000000;
+   margin-left:-0.6em;
+   padding-left: 0.6em;
+   background-color: #dfe9f5;
+   text-decoration: none;
+}
+
+.sidebar a.selflink {
+   display: block;
+   color: #000000;
+   font-weight: bold;
+}
+
+.sidebar a.selflink:hover {
+   color: #9a0003;
+   background-color: #dfe9f5;
+}
+
+.sidebar .sidehead a.selflink:hover {
+   color: #9a0003;
+   background-color: #dfe9f5;
+}
+
+.sidebar .sidehead {
+   margin: 0em;
+   margin-top: 0.6em;
+   padding: 0em;
+   font-size: 1.1em;
+   font-weight: bold;
+   color: #132a70;
+   background-color: #dfe9f5;
+}
+
+.sidebar .sidehead a:hover {
+   margin: 0em;
+   padding: 0em;
+   color: #f1f1f1;
+   background-color: #0047c1;
+}
+
+.border-dashed {
+    border-left: 2px dashed #0047c1;
+}
+
+.content {
+   margin-top: 0em;
+   padding-top: 0.1em;
+   padding-bottom: 1em;
+   padding-right: 1em;
+   padding-left: 1em;
+   margin-left: 16em;
+}
+
+.contentTitle {
+   font-size: 2em;
+   font-weight: bold;
+   padding-top: 0.1em;
+   padding-left: 0.2em;
+   padding-bottom: 0.3em;
+   margin-top: 0.2em;
+   margin-bottom: 0.6em;
+   border-bottom: 2px solid #0047c1;
+   border-left: 10px solid #0047c1;
+}
+
+.clear {
+   clear: both;
+}
+
+.edit a {
+   color: #9a0003;
+}
+
+.edit a:hover {
+   color: #000000;
+}
+
+.search {
+   margin-top: 2em;
+   padding-top: 2em;
+   padding-bottom: 1em;
+   border-top: 2px solid #006edb;
+}
+
+.searchbox {
+      width: 100%;
+}
+
+hr {
+   border: 1px solid #006edb;
+}
+
+a {
+   color: #0012b1;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #132a70;
+   text-decoration: none;
+}
+
+a:active {
+   text-decoration: none;
+}
+
+br {
+   clear: none;
+}
+
+.diffbox {
+   width: 99.5%;
+}
+
+.difftype {
+   clear: none;
+}
+.diffrestore {
+   clear: none;
+}
+
+.vspace {
+   margin: 0em;
+   padding-top: 1em;
+}
+
+img {
+   border: 0em;
+}
+
+#wikiedit {
+   clear: none;
+}
+
+#wikiedit textarea {
+   height:34em;
+   width: 99.5%;
+}
+
+ul {
+   margin-left:0.5em;
+   padding: 0em;
+   list-style:disc inside;
+}
+
+ul ul {
+   margin-left:1.5em;
+   padding: 0em;
+   list-style: circle inside;
+}
+
+ul ul ul {
+   margin-left:1.5em;
+   padding: 0em;
+   list-style: square inside;
+}
+
+ul ul ul ul {
+   margin-left:1.5em;
+   padding: 0em;
+   list-style: circle inside;
+}
+
+table {
+   border-collapse: collapse;
+   margin: 0.5em auto;
+}
+
+table tr td {
+   padding: 0.2em 0.3em;
+   vertical-align: top;
+}
+
+.content h1 {
+   font-size: 1.8em;
+   margin-top: 1em;
+   margin-bottom: 0.2em;
+   padding-top: 0.1em;
+   padding-bottom: 0.4em;
+   padding-left: 0.2em;
+   border-left: 10px solid #0047c1;
+   border-bottom: 2px solid #0047c1;
+}
+
+.content h2 {
+   font-size: 1.6em;
+   margin-top: 1em;
+   margin-bottom: 0.2em;
+   padding-top: 0.1em;
+   padding-bottom: 0.4em;
+   padding-left: 0.2em;
+   border-left: 5px solid #0047c1;
+   border-bottom: 2px solid #0047c1;
+}
+
+.content h3 {
+   font-size: 1.4em;
+   margin-top: 1em;
+   margin-bottom: 0.2em;
+   padding-top: 0.1em;
+   padding-bottom: 0.3em;
+   border-bottom: 2px solid #0047c1;
+}
+
+.content h4 {
+   font-size: 1.2em;
+   margin-top: 1em;
+   margin-bottom: 0.2em;
+   padding-top: 0.1em;
+   padding-bottom: 0.2em;
+}
+
+.content h5 {
+   font-size: 1.1em;
+   font-style: italic;
+   margin-top: 1em;
+   margin-bottom: 0.2em;
+   padding-top: 0.1em;
+   padding-bottom: 0em;
+}

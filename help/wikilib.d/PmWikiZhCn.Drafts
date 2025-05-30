@@ -1,0 +1,11 @@
+version=pmwiki-2.3.23 ordered=1 urlencoded=1
+author=poesty
+charset=UTF-8
+csum= (+4)
+ctime=1684474413
+name=PmWikiZhCn.Drafts
+rev=3
+targets=PmWiki.EditVariables,PmWikiZhCn.Passwords,PmWiki.SecurityVariables,PmWiki.LayoutVariables,PmWikiZhCn.Drafts
+text=(:Summary: 页面的草稿版本:)%0a(:title 草稿:)%0aPmWiki具有在页面成为"正式"版本之前进行草稿版本阶段的功能。默认情况下，所有草稿页面都以"-Draft"结尾（可以通过设置 $DraftSuffix 来更改）。可以将对页面的多次中间编辑暂时保存在"-Draft"副本中，直到草稿准备好发布到原始页面。%0a%0a!!配置和用法[[#usage]]%0a当站点管理员在本地自定义文件中设置 $EnableDrafts 时，编辑页面上的"Save"按钮会分为单独的"发布"和"保存草稿"按钮。%0a%0a"保存草稿"按钮会将任何编辑保存到原始页面的"-Draft"副本中，保留原始页面的完整性。随后对页面（原始页面或-Draft页面）的编辑请求将呈现草稿副本以进行进一步编辑。%0a%0a"发布"按钮保存到原始非草稿副本的页面，删除可能已创建的-Draft页面。%0a%0a默认情况下，保存草稿和发布功能对具有"edit"权限的任何人都可用（参见[[Passwords]]）。然而，站点管理员还可以设置 $EnablePublishAttr 配置变量，该变量提供了一个单独的"publish"权限，用于发布到原始页面。%0a%0a在"发布"时，页面的历史记录处理方式取决于管理员是否设置了 $EnableDraftAtomicDiff 变量。%0a* 当设置为1时，"发布"草稿版本将清除"草稿"历史记录，只保留最新版本和前一个"发布"版本之间的"差异"。请注意，这将删除中间未发布版本的作者名称、日期和贡献，因此您输入的"Summary"应概括变更内容。%0a* 否则，所有"草稿"历史记录条目都将保留 -- 这是默认设置。最终的"发布"历史记录条目将显示自最近的"草稿"版本以来的更改。%0a%0a!!草稿和（全部）最近更改[[#recentchanges]]%0a%0a默认情况下，使用"保存草稿"或"保存草稿并编辑"按钮会同时记录到Site.AllRecentChanges和Group.RecentChanges。在"发布"草稿版本后，"-Draft"页面的孤立链接将保留。%0a%0a要在Site.AllRecentChanges和Group.RecentChanges上禁用此功能：%0a%0a->%25hlt php%25[@%0a$DraftRecentChangesFmt = array();%0a@]%0a%0a或者：%0a%0a->%25hlt php%25[@%0aif ( @$EnableDrafts && @$_POST['postedit']>'' || @$_POST['postdraft']>'' )%0a  unset($RecentChangesFmt);%0a@]%0a%0a要仅禁用其中一个，请单独取消设置：%0a%0a->%25hlt php%25[@%0aif ( @$EnableDrafts && @$_POST['postedit']>'' || @$_POST['postdraft']>'' ) {%0a  unset($RecentChangesFmt['$Group.RecentChanges']); # -and/or-%0a  unset($RecentChangesFmt['$SiteGroup.AllRecentChanges']);%0a}%0a@]%0a%0a如果定义了 $DraftRecentChangesFmt 数组，则在保存草稿版本时将使用该数组而不是 $RecentChangesFmt 。例如，要使所有草稿版本仅显示在页面Site.DraftRecentChanges中，可以在config.php中添加以下内容：%0a%0a->%25hlt php%25[@%0a$DraftRecentChangesFmt['Site.DraftRecentChanges'] %0a  = '* [[{$Group}.{$Name}]]  . . . $CurrentTime $[by] $AuthorLink: [=$ChangeSummary=]';%0a@]%0a%0a参见 $RecentChangesFmt 和 $DraftRecentChangesFmt 。%0a%0a!!带有搜索、页面列表和RSS的草稿[[#pagelist]]%0a%0a草稿模块还默认设置了页面列表和搜索（因此也包括RSS订阅），忽略"-Draft"页面；为了包括草稿页面在页面列表或RSS订阅中，需要执行list=all或类似操作。%0a%0a>>faq%3c%3c[[#faq]]%0a%0aQ: 如何对所有帖子进行审核？%0a%0aA: 首先，[[Drafts | 启用草稿]]以将"保存"按钮更改为单独的"发布"和"保存草稿"按钮。然后设置 $EnablePublishAttr 。这将添加一个"publish"授权级别，用于区分页面草稿的编辑和发布。
+time=1684475835
+title=草稿

@@ -1,0 +1,10 @@
+version=pmwiki-2.3.28 ordered=1 urlencoded=1
+author=simon
+charset=UTF-8
+csum=delete? (+0)
+ctime=1251498532
+name=PmWiki.PmWikiUsers-GMap
+rev=54
+targets=PmWiki.PmWikiUsers-Map
+text=(:redirect PmWiki.PmWikiUsers-Map:)%0aGoogle Maps has suspended the API formerly used by this recipe.%0aWe now use maps from the OpenStreetMap project, see [[PmWiki.PmWikiUsers-Map]].
+time=1702756214

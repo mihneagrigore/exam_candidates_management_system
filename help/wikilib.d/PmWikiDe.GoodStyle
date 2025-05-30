@@ -1,0 +1,11 @@
+version=pmwiki-2.3.25 ordered=1 urlencoded=1
+author=MFWolff
+charset=UTF-8
+csum=pmhlt (+49)
+ctime=1205150898
+name=PmWikiDe.GoodStyle
+rev=8
+targets=PmWikiDe.DocumentationIndex
+text=(:title Guter Stil, der "Wiki-Knigge":)%0a(:Summary: der guten Stil beim Schreiben von Wikiseiten:)%0a(:Original_Page: PmWiki.{$Name}:)%0a(:Translation_Date: 2008-03-10:)%0a(:Translation_Status: %25green%25fertig%25%25:)%0a(:Audience: Autoren (Grundlagen):)%0a%0aDie Hinweise dieser Seite sollten aufmerksam gelesen werden, auch wenn man sich entscheidet, sie anschließend nicht zu befolgen.%0a%0aFür Beiträge in diesem Wiki wird normalerweise die zweite oder dritte Person, als Anrede das höfliche "Sie", verwendet. Denken Sie an den Slogan von '''Focus''',einem deutschen Nachrichtenmagazin, und schreiben Sie nur "'''Fakten, Fakten, Fakten!'''". Nur genaue Erklärungen können helfen.%0a%0aDie erste Person wird in der Regel benutzt, um eigene Erfahrungen zu beschreiben. Wer in der ersten Person schreibt, sollte seinen Beitrag namentlich kennzeichnen. Mit%25pmhlt%25@@[@~~@][@~~@] (vier Tilden) (Autor einschließlich Datum) oder [@~~@][@~@] (drei Tilden) (nur Autor) oder [@[[~Mein Name]]@]@@ wird ein Beitrag signiert.%0a%0aEs gehört zum guten Ton, Absätze, die von Anderen unterzeichnet wurden, nicht zu verändern. Davon ausgenommen sind nur offensichtliche Fehler. Wer eine Veränderung anderer ausschließen will, sollte seinen Beitrag daher unbedingt kennzeichnen. Nicht signierter Text darf frei verändert werden. %0a%0aSeien Sie zurückhaltend. Schreiben Sie in einfacher, unmissverständlicher Sprache. Seien Sie nett und tolerant zu anderen.%0a%0a%25trail%25 %3c%3c|[[DocumentationIndex|Dokumentationsindex]]|>>
+time=1692083893
+title=Guter Stil, der "Wiki-Knigge"

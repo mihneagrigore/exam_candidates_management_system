@@ -1,0 +1,10 @@
+version=pmwiki-2.3.15 ordered=1 urlencoded=1
+author=Gregor
+charset=UTF-8
+csum= (+0)
+ctime=1669378538
+name=PmWikiSi.GroupFooter
+rev=2
+targets=PmWikiSi.DocumentationIndex,PmWikiSi.Variables,PmWikiSi.GroupF,PmWiki.GroupFooter,PmWiki.GroupFooter-Talk
+text=(:Summary:Povezave do poti in pogovornih strani:)%0a[[#trailstart]] (:comment vključeno v header in footer lokalizacije PmWiki :)%0a(:if ontrail {*$Group}.DocumentationIndex#trailstart#trailend {*$Name}:) %0a>>rfloat clear=right font-size=smaller background-color=#eee%3c%3c%0a%3c|[[{*$Group}/DocumentationIndex(#trailstart#trailend)|+]]|> %25%25%0a>>%3c%3c%0a(:ifend:)%0a(:if ontrail {*$Group}.Variables {*$Name}:) %0a>>rfloat clear=right font-size=smaller background-color=#ddd%3c%3c%0a%3c|[[{*$Group}/Variables]]|> %25%25%0a>>%3c%3c%0a(:ifend:)%0a[[#trailend]]%0a[[%3c%3c]]%0a>>bgcolor=#ffe border-top="1px solid black" font-size=.8em margin-top=1em%3c%3c%0a(:if name *-Talk:)%0aTo je pogovorna stran za izboljšave [[{(substr "{*$FullName}" 0 -5)}]].%0a(:else:)%0aTa stran ima morda %25commentout-pmwikiorg%25 novejšo različico na [[(https://www.)pmwiki.org]]: [[PmWiki:{*$Name}]], in %25%25 pogovorno stran: [[PmWiki:{*$Name}-Talk]].%0a(:ifend:)%0a>>%3c%3c%0a
+time=1669554141
