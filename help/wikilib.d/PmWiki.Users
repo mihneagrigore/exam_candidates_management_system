@@ -1,9 +1,0 @@
-version=pmwiki-2.3.28 ordered=1 urlencoded=1
-author=simon
-charset=UTF-8
-csum=add summary (+46)
-name=PmWiki.Users
-rev=9
-targets=Category.Forms,!Forms,Category.Authentication,!Authentication,PmWiki.Audiences
-text=(:Summary: The three types of PmWiki users:)%0aSince `PmWiki is a development tool, as any other wiki, it has three types of users:%0a* Readers, who merely browse the information present as they surf any other web page and may interact only with [[!forms]] rendered as part of wiki pages,%0a* Authors, who start interacting with the pages by editing them (pmwiki allows guest authoring as well as several forms of [[!authentication]])%0a* Admins, who install pmwiki, maintain it, and have rights to determine how it works and who can access which areas%0a%0aFor more details, see [[audiences]]
-time=1702094132

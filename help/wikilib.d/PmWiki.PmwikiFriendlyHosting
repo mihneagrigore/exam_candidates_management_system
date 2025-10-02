@@ -1,9 +1,0 @@
-version=pmwiki-2.3.28 ordered=1 urlencoded=1
-author=simon
-charset=UTF-8
-csum=delete? (+0)
-name=PmWiki.PmwikiFriendlyHosting
-rev=38
-targets=
-text=(:redirect PmWikiFriendlyHosting:)
-time=1702756293
